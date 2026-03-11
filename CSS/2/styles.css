@@ -12,12 +12,19 @@
     margin: 16px;
     border-width: 10px;
     border-style: solid;
+    border-color: tomato;
 }
 .weird {
     width: 400px;
     height: 400px;
     background: brown;
     margin-bottom: 16px;
+
+    border-width: 10px;
+    border-left-style: dashed;
+    border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: dotted;
 }
 
 .card {
@@ -25,4 +32,5 @@
     height: 400px;
     background: yellow;
     margin-bottom: 16px;
+    border: 5px solid blue;
 }
